@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(dir:*)",
+      "Bash(npm init:*)",
+      "Bash(npm start)",
+      "Bash(\"D:/Program Files/MongoDB/Server/8.2/bin/mongod.exe\" --version)",
+      "Bash(npm install:*)",
+      "Bash(\"D:/Program Files/MongoDB/Server/8.2/bin/mongod.exe\" --dbpath \"D:/Program Files/MongoDB/Server/8.2/data\")",
+      "Bash(tasklist:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm create:*)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(python -m json.tool:*)",
+      "Bash(cat:*)",
+      "Bash(net stop:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(netstat:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
