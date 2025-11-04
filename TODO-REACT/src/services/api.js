@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://vibe-coding-test04.onrender.com/api/todos';
 
 export const todoAPI = {
   // 모든 할일 가져오기
