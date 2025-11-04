@@ -2,6 +2,10 @@ import axios from 'axios';
 
 const API_URL = 'https://vibe-coding-test04.onrender.com/api/todos';
 
+// axios 기본 설정
+axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8';
+axios.defaults.headers.put['Content-Type'] = 'application/json;charset=UTF-8';
+
 export const todoAPI = {
   // 모든 할일 가져오기
   getAllTodos: async () => {
