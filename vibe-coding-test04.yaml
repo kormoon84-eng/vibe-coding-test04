@@ -1,0 +1,10 @@
+name: vibe-coding-test04
+app: node@24
+options:
+  env:
+    - name: MONGO_URI
+      value: mongodb+srv://kormoon84_db_user:ISpBDlKlbsIGMLB6@cluster0.pn08ap9.mongodb.net/study?retryWrites=true&w=majority&appName=Cluster0
+  buildenv: []
+context:
+  git:
+    url: https://github.com/kormoon84-eng/vibe-coding-test04.git
